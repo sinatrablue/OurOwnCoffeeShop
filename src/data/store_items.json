@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Alchemist Dress",
+    "price": 50,
+    "description": "Oui bonjour je fous le feu à des crottes de rat en espérant que ça devienne de l'or.",
+    "imgUrl": "/images/alchemist_dress.png"
+  },
+  {
+    "id": 2,
+    "name": "Greens Dress",
+    "price": 60,
+    "description": "Bon bah j'aime bien faire à bouffer quoi... Et bouffer aussi.",
+    "imgUrl": "/images/greens_dress.png"
+  },
+  {
+    "id": 3,
+    "name": "Witch Dress",
+    "price": 120,
+    "description": "Je fous des encens et je tripote des caillasses tous les vendredis.",
+    "imgUrl": "/images/witch_dress.png"
+  }
+]
