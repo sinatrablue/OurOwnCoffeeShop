@@ -24,14 +24,14 @@ export function Navbar() {
         </Nav>
         <Button
           style={{ width: "3rem", height: "3rem", position: "relative" }}
-          variant="outline-primary"
+          variant="outline-info"
           className="rounded-circle"
         >
           <img src={CartImage} alt="CART"></img>
           <div
-            className="rounded-circle bg-warning d-flex justify-content-center align-items-center"
+            className="rounded-circle bg-info d-flex justify-content-center align-items-center"
             style={{
-              color: "grey",
+              color: "white",
               width: "1.5rem",
               height: "1.5rem",
               position: "absolute",
