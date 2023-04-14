@@ -47,7 +47,7 @@ export function StoreItem({
                   onClick={() => increaseItemQuantity(id)}
                   style={{ height: "3rem", width: "3rem" }}
                 >
-                  <img src={AddToCartImage} alt="ADD_TO_CART"></img>
+                  <img src={AddToCartImage} alt="ADD_TO_CART" />
                 </Button>
               </div>
             ) : (
