@@ -10,7 +10,12 @@ type CoffeeItemProps = {
 
 export function CoffeeItem({ name, description, price }: CoffeeItemProps) {
   return (
-    <Stack direction="horizontal" gap={3}>
+    <Stack
+      direction="horizontal"
+      gap={3}
+      className="rounded"
+      style={{ height: "3rem", background: "white" }}
+    >
       <span className="fs-5">{name}</span>
       <div className="ms-auto">
         <span className="text-muted">{description}</span>
