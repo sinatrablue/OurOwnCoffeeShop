@@ -30,7 +30,7 @@ export function StoreItem({
       <Card.Img
         variant="left"
         src={imgUrl}
-        width="20%"
+        width="15%"
         // style={{ objectFit: "cover" }}
       />
       <Card.Body className="d-flex flex-column">
@@ -39,7 +39,7 @@ export function StoreItem({
           <span className="ms-2 text-muted">{formatCurrency(price)}</span>
         </Card.Title>
         <Card.Text className="d-flex justify-content-between">
-          <span className="fs-5">{description}</span>
+          <span>{description}</span>
           <div className="mt-auto">
             {quantity === 0 ? (
               <div className="d-flex align-items-center flex-column">

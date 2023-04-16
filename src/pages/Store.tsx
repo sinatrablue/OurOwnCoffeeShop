@@ -9,7 +9,7 @@ export function Store() {
       <Row md={1} xs={1} lg={1} className="g-3">
         {storeItems.map((item) => (
           <Col key={item.id}>
-            <StoreItem {...item} />{" "}
+            <StoreItem {...item} />
           </Col>
         ))}
       </Row>
