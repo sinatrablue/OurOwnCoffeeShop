@@ -28,12 +28,12 @@ export function Navbar() {
           <Button
             onClick={openCart}
             style={{ width: "3rem", height: "3rem", position: "relative" }}
-            variant="outline-info"
+            variant="outline-primary"
             className="rounded-circle"
           >
             <img src={CartImage} alt="CART"></img>
             <div
-              className="rounded-circle bg-info d-flex justify-content-center align-items-center"
+              className="rounded-circle bg-secondary d-flex justify-content-center align-items-center"
               style={{
                 color: "white",
                 width: "1.5rem",

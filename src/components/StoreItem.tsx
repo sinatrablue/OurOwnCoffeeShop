@@ -61,14 +61,14 @@ export function StoreItem({
                 >
                   <Button
                     onClick={() => decreaseItemQuantity(id)}
-                    variant="info"
+                    variant="primary"
                   >
                     -
                   </Button>
                   {quantity}
                   <Button
                     onClick={() => increaseItemQuantity(id)}
-                    variant="info"
+                    variant="primary"
                   >
                     +
                   </Button>
