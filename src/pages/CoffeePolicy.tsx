@@ -14,7 +14,7 @@ export function CoffeePolicy() {
           <img src={ReturnIcon} alt="RETURN" />
         </Link>
       </Button>
-      <h1>The way we see coffee</h1>
+      <h1 className="mt-5">The way we see coffee</h1>
       <div>Proper selection, ethical, made with love...</div>
     </>
   );
