@@ -6,6 +6,7 @@ import { Coffee } from "./pages/Coffee";
 import { Store } from "./pages/Store";
 import { Navbar } from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import { CoffeePolicy } from "./pages/CoffeePolicy";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/store" element={<Store />}></Route>
           <Route path="/coffee" element={<Coffee />}></Route>
+          <Route path="/coffee/policy" element={<CoffeePolicy />}></Route>
         </Routes>
       </Container>
     </ShoppingCartProvider>
