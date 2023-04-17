@@ -1,5 +1,6 @@
 import { Stack } from "react-bootstrap";
 import { formatCurrency } from "../utilities/formatCurrency";
+import styles from "../styles/CoffeeItem.module.css";
 
 type CoffeeItemProps = {
   id: number;
@@ -13,8 +14,7 @@ export function CoffeeItem({ name, description, price }: CoffeeItemProps) {
     <Stack
       direction="horizontal"
       gap={3}
-      className="rounded"
-      style={{ height: "3rem", background: "white" }}
+      className={`pt-3 pb-3 rounded ${styles.stack}`}
     >
       <span className="fs-5">{name}</span>
       <div className="ms-auto">
